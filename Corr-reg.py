@@ -7,3 +7,6 @@ def single_cor(n, sumx, sumy, sumxy, sumxsq, sumysq):
     eq_den2 = math.sqrt((n * sumysq) - (sumy * sumy))
     final_eq = eq_num / (eq_den1 * eq_den2)
     print(final_eq)
+
+
+single_cor(5, 0, -2, -57, 10, 59)
